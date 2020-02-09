@@ -8,31 +8,31 @@
     <body>
 
         <!-- Header -->
-        <header>
+        <header id="header">
             <!-- Logo Container -->
             <div class="logo-container">
-                <img id="logo-img" src="public/original_trombones.png" alt="image of company logo">
+                <img id="header-img" src="public/original_trombones.png" alt="image of company logo">
             </div>
             <!-- Nav -->
-            <nav>
-                <a href="#" class="nav-link">Features</a>
-                <a href="#" class="nav-link">How It Works</a>
-                <a href="#" class="nav-link">Pricing</a>
+            <nav id="nav-bar">
+                <a href="#feature-container" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#pricing-container" class="nav-link">Pricing</a>
             </nav>
         </header>
 
         <!-- Main -->
         <main>
             <!-- Top of Page H1 and Form -->
-            <div id="top-page-form-container">
+            <div id="form-container">
                 <h1>Handcrafted, home-made masterpieces</h1>
-                <form class="top-page-form" action="index.html" method="post">
-                    <input type="email" name="email" placeholder="Enter your email address">
-                    <button type="submit" name="button">Get Started</button>
+                <form class="top-page-form" id="form" action=" https://www.freecodecamp.com/email-submit" method="post">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address">
+                    <input type="submit" name="submit" value="Get Started" id="submit">
                 </form>
             </div>
             <!-- Product Features -->
-            <div class="feature-container">
+            <div class="feature-container" id="feature-container">
                 <!-- Premium Materials -->
                 <div class="feature-item">
                     <div class="feature-icon-container">
@@ -66,12 +66,12 @@
             </div>
 
             <!-- How It Works Video -->
-            <div class="how-it-works">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="how-it-works" id="how-it-works">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <!-- Pricing -->
-            <div class="pricing-container">
+            <div class="pricing-container" id="pricing-container">
 
                 <!-- Tenor Trombone -->
                 <div id="tenor-trombone-container" class="trombone-container">
