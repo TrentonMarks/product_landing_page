@@ -1,4 +1,133 @@
 body {
-    background-color: rgb(53, 54, 58);
-    color: white;
+    background-color: rgb(240, 240, 240);
+    color: rgb(40,40,40);
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    font-family: helvetica;
+}
+
+header {
+    background-color: rgb(220, 220, 220);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    height: auto;
+    width: 30%;
+}
+
+#logo-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    width: auto;
+    margin-right: 5%;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: rgb(60,60,60);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(190, 190, 190);
+}
+
+.nav-link:active {
+    color: rgb(160,160,160);
+}
+
+main {
+    margin-top: 12vh;
+}
+
+footer {
+    background-color: rgb(220, 220, 220);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-nav {
+    margin-right: 50px;
+}
+
+.footer-link {
+    color: rgb(60,60,60);
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.footer-link:hover {
+    color: rgb(190, 190, 190);
+}
+
+.footer-link:active {
+    color: rgb(160, 160, 160);
+}
+
+.footer-copyright-container {
+    margin-right: 50px;
+    color: rgb(120,120,120);
+}
+
+#top-page-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-page-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+input[name=email] {
+    height: 20px;;
+    width: 300px;
+    padding-left: 5px;
+}
+
+button[type="submit"] {
+    height: 30px;
+    width: 150px;
+    border-radius: 2.5px;
+    background-color: rgb(250,200,0);
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    border: none;
+}
+
+button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+    cursor: pointer;
+
 }
